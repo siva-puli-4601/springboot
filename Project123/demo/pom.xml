@@ -31,14 +31,11 @@
     <artifactId>spring-boot-starter-data-jdbc</artifactId>
         </dependency>
 		<dependency>
-    <groupId>mysql</groupId>
-    <artifactId>mysql-connector-java</artifactId>
-    <version>8.0.28</version> <!-- Replace with the latest version -->
+    <groupId>com.microsoft.sqlserver</groupId>
+    <artifactId>mssql-jdbc</artifactId>
+    <version>10.4.0.jre11</version> <!-- adjust version as needed -->
 </dependency>
-		<dependency>
-		<groupId>mysql</groupId>
-		<artifactId>mysql-connector-java</artifactId>
-	</dependency> 
+
 		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 <dependency>
     <groupId>mysql</groupId>
